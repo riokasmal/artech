@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artech Nusantara</title>
+    <style>
+        /* CSS untuk Header */
+        header {
+            background-color: black;
+            font-size: 12px;
+            color: white;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 10px;
+        }
+        header .logo {
+            margin: 0;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        /* CSS untuk Banner */
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+        /* CSS untuk Layanan Kami */
+        .layanan {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .layanan-box {
+            display: inline-block;
+            width: 233px;
+            margin: 10px;
+            position: relative;
+            padding-bottom: 0px;
+        }
+        .layanan-box img {
+            width: 100%;
+            height: auto;
+        }
+        .layanan-teks {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* CSS untuk Hubungi Kami */
+        .hubungi {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .hubungi-box {
+            display: inline-block;
+            width: 271px;
+            margin: 10px;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .box-hijau {
+            background-color: green;
+        }
+        .box-toska {
+            background-color: #00bcd4;
+        }
+
+        /* CSS untuk Kenapa Harus Kami */
+        .kenapa-kami {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 916px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+        .kenapa-kami-item {
+            text-align: justify;
+            padding: 10px;
+        }
+        .kenapa-kami-item h2 {
+            margin-top: 0;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 class="logo">Artech Nusantara</h1>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Hubungi Kami</a>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="pic/artechnusantara.png" alt="Banner" width="1016" height="250">
+        <p>Teknisi layanan panggilan service dan instalasi ke rumah, kantor, dan bisnis anda lainnya.</p>
+    </div>
+
+    <hr style="align-items: center; width: 1016px;">
+
+    <!-- Layanan Kami -->
+    <div class="layanan">
+        <h2>LAYANAN KAMI</h2>
+        <div class="layanan-box">
+            <img src="pic/pabx.png" alt="PABX/TELEPON">
+            <div class="layanan-teks">
+                PABX/TELEPON<br>
+                Instalasi, setting extension, service PABX & Telepon.
+            </div>
+        </div>
+        <div class="layanan-box">
+            <img src="pic/cctv.png" alt="CCTV">
+            <div class="layanan-teks">
+                CCTV<br>
+                Instalasi pasang kamera CCTV & sampai online.
+            </div>
+        </div>
+        <div class="layanan-box">
+            <img src="pic/accessdoor.png" alt="ACCESS DOOR">
+            <div class="layanan-teks">
+                ACCESS DOOR<br>
+                Instalasi Access Door, siap untuk access & absensi.
+            </div>
+        </div>
+        <div class="layanan-box">
+            <img src="pic/data.png" alt="JARINGAN">
+            <div class="layanan-teks">
+                JARINGAN<br>
+                Instalasi jaringan internet anda sampai aktif.
+            </div>
+        </div>
+    </div>
+
+    <hr style="align-items: center; width: 1016px;">
+
+    <!-- Hubungi Kami -->
+    <div class="hubungi">
+        <h2>HUBUNGI KAMI</h2>
+        <div class="hubungi-box box-hijau">
+            Telp/Whatsapp<br>0812-8685-6767
+        </div>
+        <div class="hubungi-box box-toska">
+            Email<br>elyprabowo@gmail.com
+        </div>
+    </div>
+
+    <hr style="align-items: center; width: 1016px;">
+
+    <!-- Kenapa Harus Kami -->
+    <h2 style="text-align: center;">KENAPA HARUS KAMI ?</h2>
+    <div class="kenapa-kami">
+        <div class="kenapa-kami-item">
+            <h2>Pengalaman dan Keahlian</h2>
+            <p>Dengan pengalaman bertahun-tahun sejak tahun 2000, kami adalah ahli dalam PABX Panasonic, CCTV, dan jaringan. Kami menghadirkan keahlian terbaik untuk memastikan solusi yang berkualitas.</p>
+            <h2>Panggilan Layanan Langsung</h2>
+            <p>Layanan Kami menghadirkan kenyamanan dengan menyediakan panggilan langsung ke lokasi. Tidak perlu repot untuk datang ke kami. Kami datang kepada anda.</p>
+        </div>
+        <div class="kenapa-kami-item">
+            <h2>Lingkup Layanan yang Luas</h2>
+            <p>Kami sumber semua kebutuhan anda dalam hal keamanan dan komunikasi. dari rumah hingga bisnis, kami memiliki solusi yang sesuai. Ini mempermudah manajemen proyek anda.</p>
+            <h2>Komitmen pada Kualitas</h2>
+            <p>Kami tidak hanya berfokus pada penyelesaian proyek tetapi juga pada kualitasnya. Kami menggunakan teknologi dan mengikuti praktik terbaik untuk memastikan layanan harapan anda.</p>
+        </div>
+    </div>
+
+    <hr style="align-items: center; width: 1016px;">
+
+</body>
+</html>
