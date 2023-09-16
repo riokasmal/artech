@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artech Nusantara</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
         /* CSS untuk Header */
         header {
             background-color: black;
@@ -13,7 +16,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-radius: 10px;
+            border-radius: 5px;
         }
         header .logo {
             margin: 0;
@@ -21,19 +24,19 @@
         header a {
             color: white;
             text-decoration: none;
-            margin: 0 20px;
+            margin: 0 2px;
         }
 
         /* CSS untuk Banner */
-.banner {
-    text-align: center;
-    margin: 20px 0;
-}
+        .banner {
+            text-align: center;
+            margin: 20px 0;
+        }
 
-.banner img {
-    max-width: 100%;
-    height: auto;
-}
+        .banner img {
+            max-width: 100%;
+            height: auto;
+        }
 
 
         /* CSS untuk Layanan Kami */
@@ -43,8 +46,8 @@
         }
         .layanan-box {
             display: inline-block;
-            width: 233px;
-            margin: 10px;
+            width: 150px;
+            margin: 5px;
             position: relative;
             padding-bottom: 0px;
         }
@@ -70,16 +73,17 @@
         }
         .hubungi-box {
             display: inline-block;
-            width: 271px;
-            margin: 10px;
+            width: 133px;
+            margin: 1px;
+            border: 1px solid black;
             padding: 10px;
             font-weight: bold;
         }
         .box-hijau {
-            background-color: green;
+            /* background-color: green; */
         }
         .box-toska {
-            background-color: #00bcd4;
+            /* background-color: #00bcd4; */
         }
 
         /* CSS untuk Kenapa Harus Kami */
@@ -106,7 +110,7 @@
     <!-- Header -->
     <header>
         <h1 class="logo" style="font-size: 14px;">Artech Nusantara</h1>
-        <nav style="font-size: 10px;">
+        <nav style="font-size: 12px;">
             <a href="#">Beranda</a>
             <a href="#">Hubungi Kami</a>
         </nav>
@@ -122,7 +126,7 @@
 
     <!-- Layanan Kami -->
     <div class="layanan">
-        <h2 style="font-size: 14px;">LAYANAN KAMI</h2>
+        <h2 style="font-size: 12px;">LAYANAN KAMI</h2>
         <div class="layanan-box" >
             <img src="img/pabx.png" alt="PABX/TELEPON">
             <div class="layanan-teks" style="font-size: 12px;">
@@ -157,19 +161,19 @@
 
     <!-- Hubungi Kami -->
     <div class="hubungi">
-        <h2 style="font-size: 14px;">HUBUNGI KAMI</h2>
+        <h2 style="font-size: 12px;">HUBUNGI KAMI</h2>
         <div class="hubungi-box box-hijau" style="font-size: 12px;">
-            Telp/Whatsapp<br>0812-8685-6767
+            Telp/Whatsapp<br><a style="text-decoration: none;" href="https://wa.me/6281286856767">0812-8685-6767</a>
         </div>
         <div class="hubungi-box box-toska" style="font-size: 12px;">
-            Email<br>elyprabowo@gmail.com
+            Email<br><a style="text-decoration: none;" href="mailto:elyprabowo@gmail.com">elyprabowo@gmail.com</a>
         </div>
     </div>
 
 <hr>
 
     <!-- Kenapa Harus Kami -->
-    <h2 style="text-align: center; font-size: 14px;">KENAPA HARUS KAMI ?</h2>
+    <h2 style="text-align: center; font-size: 12px;">KENAPA HARUS KAMI ?</h2>
     <div class="kenapa-kami" style="font-size: 12px;">
         <div class="kenapa-kami-item">
             <h2>Pengalaman dan Keahlian</h2>
